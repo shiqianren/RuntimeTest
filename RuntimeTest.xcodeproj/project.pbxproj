@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		841586361F131EF600BB6ACD /* SevenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841586351F131EF600BB6ACD /* SevenViewController.m */; };
+		841586391F13443A00BB6ACD /* UITableView+NoData.m in Sources */ = {isa = PBXBuildFile; fileRef = 841586381F13443A00BB6ACD /* UITableView+NoData.m */; };
 		8423316E1E9F55540065358F /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8423316D1E9F55540065358F /* OneViewController.m */; };
 		842331751E9F55DC0065358F /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 842331741E9F55DC0065358F /* Person.m */; };
 		842331781E9F597F0065358F /* UIButton+count.m in Sources */ = {isa = PBXBuildFile; fileRef = 842331771E9F597F0065358F /* UIButton+count.m */; };
@@ -27,6 +29,7 @@
 		843941F81E9F4D6B006B6228 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843941F61E9F4D6B006B6228 /* LaunchScreen.storyboard */; };
 		843942031E9F4D6C006B6228 /* RuntimeTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 843942021E9F4D6C006B6228 /* RuntimeTestTests.m */; };
 		8439420E1E9F4D6C006B6228 /* RuntimeTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8439420D1E9F4D6C006B6228 /* RuntimeTestUITests.m */; };
+		843C9A071F134BCA00B00188 /* nodata.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 843C9A061F134BCA00B00188 /* nodata.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		841586341F131EF600BB6ACD /* SevenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SevenViewController.h; sourceTree = "<group>"; };
+		841586351F131EF600BB6ACD /* SevenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SevenViewController.m; sourceTree = "<group>"; };
+		841586371F13443A00BB6ACD /* UITableView+NoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+NoData.h"; sourceTree = "<group>"; };
+		841586381F13443A00BB6ACD /* UITableView+NoData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+NoData.m"; sourceTree = "<group>"; };
 		8423316C1E9F55540065358F /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
 		8423316D1E9F55540065358F /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
 		842331731E9F55DC0065358F /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
@@ -87,6 +94,7 @@
 		843942091E9F4D6C006B6228 /* RuntimeTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RuntimeTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8439420D1E9F4D6C006B6228 /* RuntimeTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeTestUITests.m; sourceTree = "<group>"; };
 		8439420F1E9F4D6C006B6228 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		843C9A061F134BCA00B00188 /* nodata.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nodata.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +137,8 @@
 				8423318C1EA0965C0065358F /* HGUser.m */,
 				8423318E1EA09A650065358F /* NSObject+Item.h */,
 				8423318F1EA09A650065358F /* NSObject+Item.m */,
+				841586371F13443A00BB6ACD /* UITableView+NoData.h */,
+				841586381F13443A00BB6ACD /* UITableView+NoData.m */,
 			);
 			path = ModelAndTool;
 			sourceTree = "<group>";
@@ -178,6 +188,8 @@
 				842331861EA074070065358F /* FiveViewController.m */,
 				842331911EA0A1FA0065358F /* SixViewController.h */,
 				842331921EA0A1FB0065358F /* SixViewController.m */,
+				841586341F131EF600BB6ACD /* SevenViewController.h */,
+				841586351F131EF600BB6ACD /* SevenViewController.m */,
 			);
 			path = RuntimeTest;
 			sourceTree = "<group>";
@@ -185,6 +197,7 @@
 		843941E81E9F4D6B006B6228 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				843C9A061F134BCA00B00188 /* nodata.jpg */,
 				843941E91E9F4D6B006B6228 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -317,6 +330,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				843C9A071F134BCA00B00188 /* nodata.jpg in Resources */,
 				843941F81E9F4D6B006B6228 /* LaunchScreen.storyboard in Resources */,
 				843941F51E9F4D6B006B6228 /* Assets.xcassets in Resources */,
 				843941F31E9F4D6B006B6228 /* Main.storyboard in Resources */,
@@ -344,11 +358,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				841586361F131EF600BB6ACD /* SevenViewController.m in Sources */,
 				842331901EA09A650065358F /* NSObject+Item.m in Sources */,
 				843941F01E9F4D6B006B6228 /* ViewController.m in Sources */,
 				842331781E9F597F0065358F /* UIButton+count.m in Sources */,
 				842331841EA0701D0065358F /* FourViewController.m in Sources */,
 				842331931EA0A1FB0065358F /* SixViewController.m in Sources */,
+				841586391F13443A00BB6ACD /* UITableView+NoData.m in Sources */,
 				8423317B1E9F5D8A0065358F /* Tool.m in Sources */,
 				843941ED1E9F4D6B006B6228 /* AppDelegate.m in Sources */,
 				842331751E9F55DC0065358F /* Person.m in Sources */,
